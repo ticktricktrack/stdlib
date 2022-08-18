@@ -43,7 +43,7 @@ module stdlib_specialfunctions_gamma
     !! Logarithm of gamma function
     !!
         #:for k1, t1 in CI_KINDS_TYPES
-        module procedure l_gamma_${t1[0]}$${k1}$
+        module procedure l_gamma_${t1[0]}$🙌${k1}$
         #:endfor
     end interface log_gamma
 
